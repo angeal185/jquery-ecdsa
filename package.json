@@ -1,0 +1,36 @@
+{
+  "name": "jquery-ecdsa",
+  "version": "1.0.0",
+  "description": "ecdsa jquery plugin for the browser using the webcrypto api",
+  "main": "./lib/index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angeal185/jquery-ecdsa.git"
+  },
+  "keywords": [
+    "ecdsa",
+    "jquery",
+    "webcrypto",
+    "webcrypto-api",
+    "signing",
+    "verify",
+    "sign",
+    "verification",
+    "browser",
+    "elliptic-curve",
+    "elliptic-curve-cryptography"
+  ],
+  "author": "ben eaves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angeal185/jquery-ecdsa/issues"
+  },
+  "homepage": "https://github.com/angeal185/jquery-ecdsa#readme"
+}
