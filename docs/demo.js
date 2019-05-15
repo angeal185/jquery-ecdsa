@@ -21,7 +21,7 @@ $.each(['public','private'], function(i,e){
 })
 
 $.each(['data','sign','verify'], function(i,e){
-  $('.main').append('<div class="col-sm-4 text-center"><label>'+ e +'</label><input id="'+ e +'Key" class="form-control"></div>')
+  $('.main').append('<div class="col-sm-4 text-center mb-4"><label>'+ e +'</label><input id="'+ e +'Key" class="form-control"></div>')
 })
 
 
