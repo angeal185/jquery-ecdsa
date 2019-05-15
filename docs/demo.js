@@ -47,10 +47,10 @@ $(document).ready(function() {
 
         let str = $(this).val(),
         hashVal = $('#hashKey').val();
-        $.ecSign(gen.private, str, hashVal, function(err, res){
+        $.ecSign(gen.private, str, hashVal, 'hex', function(err, res){
           if(err){return console.log(err)}
           $('#signKey').val(res);
-          $.ecVerify(gen.public, res, str, hashVal, function(err, res){
+          $.ecVerify(gen.public, res, str, hashVal, 'hex', function(err, res){
             if(err){return console.log(err)}
             if(res){
               $('#verifyKey').val('ecdsa test pass');
