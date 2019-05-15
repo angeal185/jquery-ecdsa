@@ -9,6 +9,7 @@
   "keywords": [
     "ecdsa",
     "jquery",
+    "jquery-plugin",
     "webcrypto",
     "webcrypto-api",
     "signing",
